@@ -1,0 +1,100 @@
+{
+  "id": "260d64c5-afa7-4b74-8ea3-e851479ae68f",
+  "version": "2.0",
+  "name": "Ferst test selenium",
+  "url": "http://automationpractice.com",
+  "tests": [{
+    "id": "3282ca1f-b8a0-420a-a8b0-6a707b95c9b3",
+    "name": "test1 selenium",
+    "commands": [{
+      "id": "8f56f39a-c390-4b21-b41a-221261c3654f",
+      "comment": "",
+      "command": "open",
+      "target": "/index.php",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "bb2b0049-d355-4d5a-a6b7-285ffef490e5",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1708x1028",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7a28b6a8-b2d9-42f4-adfc-5dc4904e2a6a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.sfHover > a",
+      "targets": [
+        ["css=.sfHover > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'T-shirts')])[2]", "xpath:link"],
+        ["xpath=//div[@id='block_top_menu']/ul/li[3]/a", "xpath:idRelative"],
+        ["xpath=(//a[@href='http://automationpractice.com/index.php?id_category=5&controller=category'])[2]", "xpath:href"],
+        ["xpath=//div[6]/ul/li[3]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9f595928-1e7b-4907-94ec-091414ba9f98",
+      "comment": "",
+      "command": "click",
+      "target": "id=layered_id_attribute_group_1",
+      "targets": [
+        ["id=layered_id_attribute_group_1", "id"],
+        ["name=layered_id_attribute_group_1", "name"],
+        ["css=#layered_id_attribute_group_1", "css:finder"],
+        ["xpath=//input[@id='layered_id_attribute_group_1']", "xpath:attributes"],
+        ["xpath=//div[@id='uniform-layered_id_attribute_group_1']/span/input", "xpath:idRelative"],
+        ["xpath=//span/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3b89be27-3e1e-48f0-8005-68d0033c7927",
+      "comment": "",
+      "command": "click",
+      "target": "id=color_2",
+      "targets": [
+        ["id=color_2", "id"],
+        ["css=#color_2", "css:finder"],
+        ["xpath=//a[@id='color_2']", "xpath:attributes"],
+        ["xpath=//div[@id='center_column']/ul/li/div/div[2]/div[3]/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=(//a[@href='http://automationpractice.com/index.php?id_product=1&controller=product#/size-s/color-blue'])[3]", "xpath:href"],
+        ["xpath=//div[3]/ul/li[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "abd01c9c-2bce-4852-b033-d18fd5dea843",
+      "comment": "",
+      "command": "click",
+      "target": "css=.exclusive > span",
+      "targets": [
+        ["css=.exclusive > span", "css:finder"],
+        ["xpath=//p[@id='add_to_cart']/button/span", "xpath:idRelative"],
+        ["xpath=//div[3]/div/p/button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Add to cart')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ce456c2c-e727-4a13-bf21-ef7091688aef",
+      "comment": "",
+      "command": "click",
+      "target": "css=.button-medium > span",
+      "targets": [
+        ["css=.button-medium > span", "css:finder"],
+        ["xpath=//div[@id='layer_cart']/div/div[2]/div[4]/a/span", "xpath:idRelative"],
+        ["xpath=//div[4]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Proceed to checkout')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "1f09d968-9cfb-4710-b3e0-86f4146d79da",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["3282ca1f-b8a0-420a-a8b0-6a707b95c9b3"]
+  }],
+  "urls": ["http://automationpractice.com/"],
+  "plugins": []
+}

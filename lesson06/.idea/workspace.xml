@@ -5,19 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ef49ef85-11ed-4656-91ad-0a01941ea6ec" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../lesson04/lesson04/src/main/java/lesson6/DotaPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lesson04/lesson04/src/test/java/lesson6/DotaTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lesson04/lesson04/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/../lesson04/lesson04/.idea/.name" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lesson04/lesson04/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../lesson04/lesson04/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lesson04/lesson04/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/../lesson04/lesson04/src/main/java/module-info.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lesson04/lesson04/src/test/java/AreaTriangleTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lesson04/lesson04/src/test/java/lesson5Tests/DotaToolsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../lesson04/lesson04/src/test/java/lesson5Tests/DotaToolsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/DotaTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/DotaTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,6 +66,7 @@
       <option name="presentableId" value="Default" />
       <updated>1653652350397</updated>
       <workItem from="1653652355947" duration="1269000" />
+      <workItem from="1653912538001" duration="296000" />
     </task>
     <servers />
   </component>
